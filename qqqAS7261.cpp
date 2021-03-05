@@ -1,6 +1,6 @@
 #include "qqqAS7261.h"
 #include <Wire.h>
-#include <stdint.h>
+
 
 void AS7261::begin(){
     disableBulb();
