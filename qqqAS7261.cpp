@@ -69,7 +69,7 @@ uint8_t AS7261::getGain() {
 }
 
 float AS7261::getGainValue() {
-  return (_gain==0 ? 1.0 : (_gain==1 ? 3.71 : (_gain==3 ? 16.0 : 64.0)));
+  return (_gain==0 ? 1.0 : (_gain==1 ? 3.7 : (_gain==2 ? 16.0 : 64.0)));
 }
 
 //Sets the integration value
